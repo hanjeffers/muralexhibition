@@ -1,0 +1,58 @@
+
+	body 				{margin-bottom: 20px;}
+	
+	.header 			{background: #282828;}
+	.header img 		{max-height: 70px;}
+	h1					{font-size: 28px; margin-bottom: 0px; margin-top: 10px; color: #fff;}
+	.header p 			{font-size: 16px; color: #999;}
+ 	.skinny				{line-height: 14px;}
+	.skinny	> li > a 	{padding: 3px 15px !important;}
+
+	/* like slavery */
+	.navbar-inverse 	{ background-color: #1c1c1c; border: 0px; border-radius: 0px;}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    					background-color: #282828; color: #FFFFFF; }
+    .navbar 			{min-height: 38px;}
+	.navbar-nav > li > a { padding-bottom:8px; padding-top:8px; }
+
+    a 							{color: #7A0029; /* darker: #54001C; */}		
+	a:hover 					{color: #7A0029; /* darker: #54001C; */}	
+
+	/* no brand so shift this to align left with header */
+	.navbar-collapse			{padding-left: 0}
+	.navbar-brand .small		{font-size: 70%}
+
+	.navbar-toggle .button-label 		{display: inline-block; vertical-align: middle; padding-right: 8px; text-transform: uppercase; float: left; color: white;}
+	.navbar-toggle .button-bars 		{display: inline-block; float: left;}
+
+
+
+	.sidebar .img-thumbnail 	{margin-bottom: 20px;}
+	.personXXX 					{max-width: 150px;}
+/* xs max width 150 */
+@media (min-width: @screen-sm-min) { 
+	/* Small devices (tablets, 768px and up) */
+	.person 					{max-width: 400px;}
+ }
+
+
+	.sidebar li 				{margin-bottom: 6px;}
+	.sidebar dt 				{margin-top: 10px}
+
+	.main 						{line-height: 1.6;}
+	.main p 					{margin-bottom: 18px; /* increase to compensate for larger line height */}
+	h2							{font-size: 36px; color: #990033; margin-top: 10px;}
+	h3							{color: #990033; margin-top: 30px;}
+	.dept 						{font-size: 18px;}
+	/* jaxxy list cions; see http://astronautweb.co/snippet/font-awesome/ for list of codes */
+	.main ul 					{list-style-type: none; padding-left: 20px;}
+	.main li 					{position: relative; padding-left: 20px; margin-bottom: 10px}
+	.main li:before 			{position: absolute; top: 0; left: 0; font-family: FontAwesome; content: "\f069"; color: #990033;}
+
+
+	.navbar 					{margin-bottom: 0;}
+	.banner 					{background-position: center center; background-size: cover; min-height: 300px;}
+	.sidebar 					{margin-top: -100px }
+
+
+	

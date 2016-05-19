@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+	<!-- CONTENT -->
+  	<div class="container-fluid content">
+		<div class="row">
+    		<div class="col-md-3 col-xs-6 main">
+        		<h2>{{ page.title }}</h2>
+
+        		{{ content }}
+      		</div>
+
+    		<div class="col-md-9 col-xs-6 mainimage" style="background-image: url({{ "/images/" | prepend: site.baseurl }}{{ page.image}})" >
+       
+      		</div>      
+		</div> <!-- end row -->
+	</div> <!-- end container -->

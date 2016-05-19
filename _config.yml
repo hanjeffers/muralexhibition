@@ -1,0 +1,14 @@
+# Site settings
+title: Frederick Douglass Murals
+header-img: img/london-lo.jpg
+email: bob@gmail.com
+copyright_name: Hannah xxxxx
+baseurl: "/muralexhibition"
+url: "http://frederickdouglassinbritain.com"
+
+# Build settings
+port: 4002
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+exclude: ["README.md"]
