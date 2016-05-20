@@ -5,13 +5,17 @@ layout: page
 	<!-- CONTENT -->
   	<div class="container-fluid content">
 		<div class="row">
-    		<div class="col-md-3 col-xs-6 main">
+    		<div class="col-md-4 main">
+          <!--
         		<h2>{{ page.title }}</h2>
-
+            <h4><i>{{ page.artist }}</i>, {{ page.year }}</h4>
+            <h3>{{ page.city }}</h4>
+            <p>{{ page.address }}</p>
+-->
         		{{ content }}
       		</div>
 
-    		<div class="col-md-9 col-xs-6 mainimage" style="background-image: url({{ "/images/" | prepend: site.baseurl }}{{ page.image}})" >
+    		<div class="col-md-8 mainimage" style="background-image: url({{ "/images/" | prepend: site.baseurl }}{{ page.image}})" >
        
       		</div>      
 		</div> <!-- end row -->
