@@ -18,6 +18,7 @@
 
 	<style>
 	body         {background: #282828 /*1C1C1C*/; padding: 10px; font-family: 'Open Sans', sans-serif;}
+  a   {color: white;}
 	body, html, .content, .content .row, .mainimage  {height: 100%;}
 	.header hr 	 {border-color: #626262;}
 	.header p 	 {margin-bottom: 0px}
@@ -29,10 +30,10 @@
 	h4 				{font-size: 20px;}
 	.main 			{font-size: 18px; font-weight: 300;}
 
-	.thumbnail   {background-color: #282828; border: 2px solid #1C1C1C; border-radius: 0px; }
+	.thumbnail   {background-color: #282828; border: 5px solid #282828; border-radius: 0px; }
 
   	/* fix size of boxes & make images fill them by using background-size: cover; */
-	.thumbnail   {height: 160px; background-size: cover}
+	.thumbnail   {height: 180px; background-size: cover}
 
 	/* main image and text */
 	.main {color: white; padding-right: 40px;}
@@ -53,6 +54,18 @@
       vertical-align: -0.4em;
     }
     blockquote p { display: inline;}
+
+
+    /* fix size of boxes & make images fill them by using background-size: cover; */
+    .card .thumbnail      {height: 180px; margin-bottom: 20px; background-size: cover}
+    .card           {position: relative; }
+    .card h2        {font-weight: 400; margin: 5px 0px; font-size: 26px; color: #282828;}
+    .card h3        {font-weight: 400; margin: 0px;} /* so matches style of H1 on pages */
+    .cardlabel      {padding-left: 10px; position: absolute; bottom: 5px; left: -5px; background: rgba(255, 253, 249, 0.8); width: 100%;}
+
+   /* home page thumbnail caption overlays */
+    a.thumb img:hover     {cursor: pointer;}
+    .thumb h4         {display: block; position: absolute; bottom: 0px; margin-bottom: 0px; text-align: right; padding: 10px 6px; background: rgba(255, 255, 255, 0.5); width: 100%;}
 
 	</style>
 
